@@ -1,0 +1,40 @@
+{
+  "name": "blue-titans-server",
+  "version": "1.0.0",
+  "description": "Server for Blue Titans for Google Solutions Challenge",
+  "keywords": [
+    "Blue",
+    "Titans",
+    "GSC",
+    "Google",
+    "Solutions",
+    "Challenge"
+  ],
+  "homepage": "https://github.com/ThakurMayank7/Blue-Titans-Server#readme",
+  "bugs": {
+    "url": "https://github.com/ThakurMayank7/Blue-Titans-Server/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThakurMayank7/Blue-Titans-Server.git"
+  },
+  "license": "MIT",
+  "author": "ThakurMayank7",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "ffmpeg-static": "^5.2.0",
+    "firebase-admin": "^13.2.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "fs": "^0.0.1-security",
+    "meyda": "^5.6.3",
+    "multer": "^1.4.5-lts.2",
+    "wavefile": "^11.0.0"
+  }
+}
